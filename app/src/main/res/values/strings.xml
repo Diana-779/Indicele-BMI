@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">indiceleBMI</string>
+    <string name="tv1">BMI</string>
+    <string name="tv2">Calculator</string>
+    <string name="tv3">GREUTATEA(KG)</string>
+    <string name="et1">IN KG</string>
+    <string name="tv4">INALTIMEA(CM)</string>
+    <string name="et2">IN CM</string>
+    <string name="ib1">CALCULEAZA</string>
+
+
+
+</resources>

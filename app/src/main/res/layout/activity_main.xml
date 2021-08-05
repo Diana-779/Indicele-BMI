@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/purple_200"
+    android:fadingEdge="horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingStart="15dp"
+    android:paddingTop="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:text="@string/tv1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tv2"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="@string/tv3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fadingEdgeLength="10dp"
+        android:gravity="center"
+        android:hint="@string/et1"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <requestFocus />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="@string/tv4"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fadingEdgeLength="10dp"
+        android:gravity="center"
+        android:hint="@string/et2"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/ib1"
+        android:layout_width="159dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:longClickable="true"
+        android:nextFocusRight="@color/black"
+        android:requiresFadingEdge="vertical"
+        android:text="@string/ib1"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
